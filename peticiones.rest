@@ -1,0 +1,49 @@
+GET http://localhost:3000/api/products
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzNlODViYzRlOTA4YzI0Zjg5OTI4Y2IiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2NjUwNDI5ODF9.9YCXUVOPeXOSKXIBejA22iBzXdeoE0JkgL7S6-v-fu4
+###
+
+GET http://localhost:3000/api/products/633be6da0451135592e7eece
+###
+
+GET http://localhost:3000/api/products/dpto/cocina
+###
+
+GET http://localhost:3000/api/products/pr/400
+###
+
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+"name": "Tijeras TT",
+"description": "Tijeras de podar pequeñas",
+"price": 35,
+"department": "Bricolaje",
+"available": true,
+"stock": 2
+}
+###
+
+GET http://localhost:3000/api/products/list/des
+###
+
+GET http://localhost:3000/api/products/dpto/stats
+###
+
+GET http://localhost:3000/api/products/pr/max/50
+###
+
+GET http://localhost:3000/api/products/available
+###
+
+GET http://localhost:3000/api/products/dpto/same
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzNlODViYzRlOTA4YzI0Zjg5OTI4Y2IiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2NjUwNDI5ODF9.9YCXUVOPeXOSKXIBejA22iBzXdeoE0JkgL7S6-v-fu4
+###
+
+GET http://localhost:3000/api/products/taxes
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzNlODViYzRlOTA4YzI0Zjg5OTI4Y2IiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2NjUwNDI5ODF9.9YCXUVOPeXOSKXIBejA22iBzXdeoE0JkgL7S6-v-fu4
+###
+
+GET http://localhost:3000/api/products/add/633d326401675f199125b707
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzNlODViYzRlOTA4YzI0Zjg5OTI4Y2IiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2NjUwNDI5ODF9.9YCXUVOPeXOSKXIBejA22iBzXdeoE0JkgL7S6-v-fu4
+###

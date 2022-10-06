@@ -1,0 +1,30 @@
+
+POST http://localhost:3000/api/users/register
+Content-Type: application/json
+
+{
+    "username": "AlvaroTT23", 
+    "email": "carlos@gmail.com",
+    "password": "12345",
+    "active": true
+ 
+  
+}
+###
+
+POST http://localhost:3000/api/users/login
+Content-Type: application/json
+
+{  
+    "email": "jummm@wifinevada.com",
+    "password": "12345" 
+}
+###
+
+GET http://localhost:3000/api/users/profile
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzNlODViYzRlOTA4YzI0Zjg5OTI4Y2IiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2NjUwNDkxMzF9.3C64V9FzBs7Kr3AIiFPwgWVcywi1gVOolwWMHJaJyLY
+
+###
+
+GET http://localhost:3000/api/products/cart
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzNlODViYzRlOTA4YzI0Zjg5OTI4Y2IiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2NjUwNDkxMzF9.3C64V9FzBs7Kr3AIiFPwgWVcywi1gVOolwWMHJaJyLY
